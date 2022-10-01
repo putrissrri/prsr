@@ -1,0 +1,13 @@
+xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante Version="3.3" Total="45264.13">
+    <cfdi:Emisor Rfc="ABC123456AB1" Nombre="JOHN DOE"/>
+     <cfdi:Conceptos>
+         <cfdi:Concepto ValorUnitario="93.80">
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+     <cfdi:Complemento>
+        <tfd:Digital Version="1.1" Sello="BXTJPwDh+" NoCertificado="0000100"
+            FechaTimbrado="2019-07-18" UID="C58C"
+            xmlns:tfd="http://www.stackoverflow.com"/>
+    </cfdi:Complemento>
+</cfdi:Comprobante>
